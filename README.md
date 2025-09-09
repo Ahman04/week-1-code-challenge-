@@ -39,7 +39,8 @@ Get your grade instantly in a pop-up message.
 
 
 
-???? Project Structure
+Project Structure
+
 Student-Grade-Calculator/
 │── index.html   # HTML main file with embedded JavaScript
 │── README.md    # Documentation
