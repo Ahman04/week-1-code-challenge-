@@ -1,60 +1,63 @@
-# week-1-code-challenge-
-# phase-1-code-challenge-week-1
+# Week-1-Code-Challenge
 
-STUDENTS GRADING CALCULATOR 
-This is simple HTML and javascript project that allows user to input their marks between 0 to 100 and instantly they get there code back 
+## Date: 10/09/2025
 
-tThe grading is as follows
-     79-100 A     
-     60-79  B
-     49-59  C
-     40-49  D
-     0-40   E
+### By: Abdirahman Mohamed 
 
-    if the user inputs a negative or a number that is not in this category it will output "invalid number"
+#### Description
 
+This project contains three JavaScript programs that present solutions to simple challenges:
 
+Student Grade Generator – prompts the user to input student marks and prints the corresponding grade.
 
-   Features
+Speed Detector – determines the speed of a car and calculates demerit points if the driver is over the speed limit.
 
-Interactive pop-up input (via prompt).
+Net Salary Calculator – calculates an individual's Net Salary by taking basic salary and benefits inputs and applying PAYE, NSSF,  and SHIF.
 
-Immediate grade feedback via alert box.
+# Installation Requirement
 
-Easy and simple to use.
+Git
 
-Input validation is provided.
+Node.js (to run JavaScript on the terminal)
 
 
+## Instructions
 
-How to Run
-
-Copy the code into a file named index.html.
-
-Open the file within any modern web browser.
-
-Enter a mark (0–100) when prompted.
-
-Get your grade instantly in a pop-up message.
+Clone the repository:
+git clone https://github.com/Ahman04/week-1-code-challenge-.git
 
 
-
-Project Structure
-
-Student-Grade-Calculator/
-│── index.html   # HTML main file with embedded JavaScript
-│── README.md    # Documentation
+Move into the project directory:
+cd Week-1-Code-Challenge
 
 
-Demo (Flow)
+Run the program using Node.js:
 
-Browser prompts: "Enter your mark (0 - 100):"
+node mygarde.js
+node speed.html
+node Salary.js
 
-User inputs: 95
+##  Technologies Used
 
-Alert shows: "Grade A" ✅
+JavaScript
 
-Aller means a pop-up message its same as console.log
+html
+
+Node.js
+
+Git & GitHub
 
 
 
+
+#### License
+
+MIT License
+
+Copyright (c) 2025 Abdirahman Mohamed
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speed  Detector</title>
+</head>
+<body>
+     
+    <h1>SPEED DETECTOR</h1>
+    <script>
+        let speed = Number(prompt("Enter your speed:"));  // Prompt user to enter speed and convert it to a number
+
+        if (speed<70){
+            alert("ok");
+        } else {
+            let points =Math.floor((speed -70)/5); // Calculate points, rounding down to the nearest whole number
+            
+            if (points >=12) { // shows if points are 12 or more
+                alert("License suspended"); // alert the user that their license is suspended
+            } else {
+                alert("Points: " + points); // Display the number of points
+            }
+        }
+    </script>
+
+
+    
+</body>
+</html>
